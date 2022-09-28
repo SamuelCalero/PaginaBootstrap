@@ -1,0 +1,64 @@
+
+.navbar-brand{
+    width: 120px;
+    height: 32px;
+    font-size: medium!important;
+}
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    padding:  .5em 1em;
+    font-size: medium;
+    margin-top: 3px;
+}
+.navbar-nav .nav-link{
+    
+    text-align: center;
+    border-radius: 22px;
+    box-decoration-break: slice 0s;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: #212529!important;
+    color: white!important;
+    border-radius: 20px;
+    box-decoration-break: slice;
+}
+.navbar-nav .nav-link:hover{
+    background-color: #212529!important;
+    color: white!important;
+    border-radius: 20px;
+    box-decoration-break: slice 0s;
+    transition: ease-in-out .5s;
+    text-shadow: 1px 1px 4px white;
+}
+input:focus{
+    border: 1px solid black!important;
+    box-shadow: 0 0 0 .15rem #212529!important;
+}
+.btn-primary{
+    background-color: #ffffff!important;
+    border: 1px solid black!important;
+    color: black!important;
+}
+.btn-primary:hover{
+    background-color: black!important;
+    color: white!important;
+    border: 1px solid white!important;
+}
+.card-body a{
+    margin-left: 85px!important;
+    margin-right: 85px!important;
+}
+.card-body p{
+    text-align: justify;
+}
+body{
+    background-image: url('img/fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
